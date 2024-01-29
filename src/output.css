@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 /*
 ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
@@ -444,7 +446,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -494,7 +496,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -544,39 +546,103 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.relative {
+.relative{
   position: relative;
 }
 
-.block {
-  display: block;
+.z-30{
+  z-index: 30;
 }
 
-.flex {
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex{
   display: flex;
 }
 
-.flex-wrap {
-  flex-wrap: wrap;
+.max-w-\[1440px\]{
+  max-width: 1440px;
 }
 
-.border {
-  border-width: 1px;
+.items-center{
+  align-items: center;
 }
 
-.text-center {
-  text-align: center;
+.justify-between{
+  justify-content: space-between;
 }
 
-.font-bold {
-  font-weight: 700;
+.overflow-hidden{
+  overflow: hidden;
 }
 
-.text-green-600 {
-  --tw-text-opacity: 1;
-  color: rgb(22 163 74 / var(--tw-text-opacity));
+.border-2{
+  border-width: 2px;
+}
+
+.border-red-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+/* FONTS */
+
+/* Hero */
+
+/* Camp */
+
+/* Feature */
+
+/* Get App */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+@media (min-width: 1024px){
+  .lg\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media (min-width: 1680px){
+  .\33xl\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
