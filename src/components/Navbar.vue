@@ -33,7 +33,8 @@
       class="inline-block cursor-pointer lg:hidden"
     />
   </nav>
-  <div v-if="Menu" class="float-right mr-16 max-w-[200px] shadow-md z-50 lg:hidden">
+  <!-- small Menu  -->
+  <!-- <div v-if="Menu" class="float-right mr-16 max-w-[200px] shadow-md lg:hidden">
     <ul class="flex flex-col rounded-lg bg-slate-100">
       <li v-for="link in NAV_LINKS" :key="link.key">
         <a
@@ -43,7 +44,7 @@
         >
       </li>
     </ul>
-  </div>
+  </div> -->
 </template>
 <script setup>
 import { NAV_LINKS } from '../constants/index'

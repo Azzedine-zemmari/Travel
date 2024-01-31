@@ -13,7 +13,7 @@
         width="50"
         height="50"
         class="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
-        />
+      />
       <h1
         class="text-[52px] font-[700] leading-[120%] lg:text-[88px] lg:font-[700] lg:leading-[120%]"
       >
@@ -56,29 +56,29 @@
           text-color="black"
           px="24"
           py="14"
-          icon="./src/assets/play.svg"
+          icon="../src/assets/play.svg"
         />
       </div>
     </div>
     <div class="relative flex-1 items-start">
-      <div class="relative z-20 w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
+      <div class="relative z-20 w-[268px] flex flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
         <div class="flex flex-col">
           <div class="flex items-center justify-between">
             <p class="text-[16px] font-[400] text-gray-20">Location</p>
-            <img src="../assets/close.svg" alt="close" width='24' height="24">
+            <img src="../assets/close.svg" alt="close" width="24" height="24" />
           </div>
           <p class="text-[20px] font-[700] text-white">Casablanca City</p>
         </div>
 
         <div class="flex items-center justify-between">
-        <div class="flex flex-col">
+          <div class="flex flex-col">
             <p class="text-[16px] font-[400] block text-gray-20">Distance</p>
             <p class="text-[20px] font-[700] text-white">122.21 m</p>
-        </div>
-        <div class="flex flex-col">
+          </div>
+          <div class="flex flex-col">
             <p class="text-[16px] font-[400] block text-gray-20">Elevation</p>
             <p class="text-[20px] font-[700] text-white">2.040 km</p>
-        </div>
+          </div>
         </div>
       </div>
     </div>
