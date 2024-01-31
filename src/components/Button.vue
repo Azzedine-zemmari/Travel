@@ -6,7 +6,8 @@
       'padding-top': props.py + 'px',
       'padding-bottom': props.py + 'px',
       'background-color': props.bgColor,
-      color: props.textColor
+      color: props.textColor,
+      opacity: props.opacity
     }"
     class="flex items-center gap-3 justify-center rounded-full"
   >
@@ -18,5 +19,5 @@
 <script setup>
 import { defineProps } from 'vue'
 
-const props = defineProps(['text', 'icon', 'bgColor', 'textColor', 'px', 'py'])
+const props = defineProps(['text', 'icon', 'bgColor', 'textColor', 'px', 'py', 'opacity'])
 </script>
