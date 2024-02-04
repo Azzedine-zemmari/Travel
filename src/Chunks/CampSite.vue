@@ -4,7 +4,7 @@
     :class="props.BackgroundImage"
   >
     <div
-      class="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10 border-2 border-blue-400"
+      class="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10"
     >
       <div class="flex items-center justify-center gap-4">
         <div class="rounded-full bg-green-50 p-4">
@@ -15,11 +15,19 @@
           <p class="text-[14px] font-[400] text-white">{{ props.subtitle }}</p>
         </div>
       </div>
-      <div class="flex items-center justify-center ">
-        <span v-for="PEOPLE in PEOPLE_URL" class="flex -space-x-4 overflow-hidden">
-          <img class="inline-block h-10 w-10 rounded-full" :src="PEOPLE" :key="index" alt="person" width="52" height="52">
+      <div class="flex items-center justify-center">
+        <span v-for="(person, index) in PEOPLE_URL" :key="index">
+          <img
+            class="inline-block h-10 w-10 rounded-full"
+            :src="person"
+            alt="person"
+            width="52"
+            height="52"
+          />
         </span>
-        <p class="text-[16px] font-[700]">{{ props.peopleJoined }}</p>
+        <p class="text-[16px] font-[700] md:text-[18px] md:font-[700] text-white ml-6">
+          {{ props.peopleJoined }}
+        </p>
       </div>
     </div>
   </div>
@@ -27,6 +35,6 @@
 
 <script setup>
 import { defineProps } from 'vue'
-import { PEOPLE_URL } from "../constants/index";
+import { PEOPLE_URL } from '../constants/index'
 const props = defineProps(['BackgroundImage', 'title', 'subtitle', 'peopleJoined'])
 </script>
