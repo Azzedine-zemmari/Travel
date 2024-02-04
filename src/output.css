@@ -570,6 +570,14 @@ video {
   top: -30px;
 }
 
+.-right-6{
+  right: -1.5rem;
+}
+
+.bottom-4{
+  bottom: 1rem;
+}
+
 .z-20{
   z-index: 20;
 }
@@ -606,6 +614,14 @@ video {
 
 .mt-6{
   margin-top: 1.5rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.mt-5{
+  margin-top: 1.25rem;
 }
 
 .block{
@@ -664,6 +680,10 @@ video {
   width: 100vw;
 }
 
+.w-\[140px\]{
+  width: 140px;
+}
+
 .min-w-\[1100px\]{
   min-width: 1100px;
 }
@@ -702,6 +722,10 @@ video {
 
 .justify-start{
   justify-content: flex-start;
+}
+
+.justify-end{
+  justify-content: flex-end;
 }
 
 .justify-center{
@@ -811,6 +835,10 @@ video {
   padding: 1.5rem;
 }
 
+.p-8{
+  padding: 2rem;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -858,6 +886,10 @@ video {
   padding-bottom: 8rem;
 }
 
+.text-left{
+  text-align: left;
+}
+
 .text-\[14px\]{
   font-size: 14px;
 }
@@ -878,12 +910,20 @@ video {
   font-size: 52px;
 }
 
+.text-\[24px\]{
+  font-size: 24px;
+}
+
 .font-\[400\]{
   font-weight: 400;
 }
 
 .font-\[700\]{
   font-weight: 700;
+}
+
+.capitalize{
+  text-transform: capitalize;
 }
 
 .leading-\[120\%\]{
@@ -1011,14 +1051,34 @@ body {
     font-size: 18px;
   }
 
+  .md\:text-\[32px\]{
+    font-size: 32px;
+  }
+
   .md\:font-\[700\]{
     font-weight: 700;
+  }
+
+  .md\:font-\[400\]{
+    font-weight: 400;
   }
 }
 
 @media (min-width: 1024px){
+  .lg\:bottom-10{
+    bottom: 2.5rem;
+  }
+
   .lg\:mb-10{
     margin-bottom: 2.5rem;
+  }
+
+  .lg\:-mt-60{
+    margin-top: -15rem;
+  }
+
+  .lg\:mr-6{
+    margin-right: 1.5rem;
   }
 
   .lg\:flex{
@@ -1035,6 +1095,10 @@ body {
 
   .lg\:w-\[50px\]{
     width: 50px;
+  }
+
+  .lg\:max-w-\[500px\]{
+    max-width: 500px;
   }
 
   .lg\:items-center{
@@ -1091,6 +1155,10 @@ body {
     top: -15rem;
   }
 
+  .xl\:-right-8{
+    right: -2rem;
+  }
+
   .xl\:mb-20{
     margin-bottom: 5rem;
   }
@@ -1103,12 +1171,42 @@ body {
     width: 50%;
   }
 
+  .xl\:w-\[186px\]{
+    width: 186px;
+  }
+
   .xl\:max-w-\[520px\]{
     max-width: 520px;
   }
 
+  .xl\:max-w-\[734px\]{
+    max-width: 734px;
+  }
+
   .xl\:flex-row{
     flex-direction: row;
+  }
+
+  .xl\:rounded-5xl{
+    border-radius: 40px;
+  }
+
+  .xl\:px-16{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .xl\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .xl\:text-\[16px\]{
+    font-size: 16px;
+  }
+
+  .xl\:font-\[400\]{
+    font-weight: 400;
   }
 }
 
@@ -1121,9 +1219,25 @@ body {
   .\32xl\:rounded-5xl{
     border-radius: 40px;
   }
+
+  .\32xl\:text-\[64px\]{
+    font-size: 64px;
+  }
+
+  .\32xl\:font-\[400\]{
+    font-weight: 400;
+  }
+
+  .\32xl\:leading-\[120\%\]{
+    line-height: 120%;
+  }
 }
 
 @media (min-width: 1680px){
+  .\33xl\:right-0{
+    right: 0px;
+  }
+
   .\33xl\:px-0{
     padding-left: 0px;
     padding-right: 0px;
