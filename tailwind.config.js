@@ -31,6 +31,7 @@
           'feature-bg': "url('../src/assets/feature-bg.png')",
           pattern: "url('../src/assets/pattern.png')",
           'pattern-2': "url('../src/assets/pattern-bg.png')",
+          'boat':"url('../src/assets/boat.png')"
         },
         screens: {
           xs: '400px',
