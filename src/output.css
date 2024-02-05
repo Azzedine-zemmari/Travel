@@ -813,6 +813,10 @@ video {
   gap: 8rem;
 }
 
+.gap-36{
+  gap: 9rem;
+}
+
 .gap-4{
   gap: 1rem;
 }
@@ -1492,6 +1496,10 @@ body {
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
 }
 
+.hover\:text-\[18px\]:hover{
+  font-size: 18px;
+}
+
 .hover\:font-bold:hover{
   font-weight: 700;
 }
@@ -1499,6 +1507,10 @@ body {
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\]:hover{
+  color: ;
 }
 
 @media (min-width: 640px){
@@ -1714,6 +1726,14 @@ body {
     font-size: 88px;
   }
 
+  .lg\:text-\[4px\]{
+    font-size: 4px;
+  }
+
+  .lg\:text-\[22px\]{
+    font-size: 22px;
+  }
+
   .lg\:font-\[400\]{
     font-weight: 400;
   }
@@ -1724,6 +1744,10 @@ body {
 
   .lg\:leading-\[120\%\]{
     line-height: 120%;
+  }
+
+  .lg\:text-\[px\]{
+    color: px;
   }
 }
 
