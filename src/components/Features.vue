@@ -11,7 +11,7 @@
         <img src="../assets/phone.png"  alt="" />
       </div>
     </div>
-    <div class="lg:w-2/3 md:w-full flex flex-col justify-center items-center lg:items-start      w-screen">
+    <div class="lg:w-2/3 md:w-full flex flex-col justify-center items-center lg:items-start    w-screen">
       <div class="flex flex-col">
         <img src="../assets/camp.svg" width="62" height="62" class="" alt="" />
         <h4
