@@ -12,10 +12,39 @@
                     and friends to have fun in the wilderness through the valley and reach the top of the mountain</p>
             </div>
         </div>
-        <div class="w-full max-w-[1440px] bg-boat bg-cover bg-no-repeat">
+        <div class="flex items-center justify-center mx-auto max-w-[1440px] relative w-full">
+        <img 
+          src="../assets/boat.png"
+          alt="boat"
+          width={1440}
+          height={580}
+          class="w-full object-cover object-center 2xl:rounded-5xl"
+        />
 
+        <div class="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
+          <img 
+            src="../assets/meter.svg"
+            alt="meter"
+            width={16}
+            height={158}
+            class="h-full w-auto"
+          />
+          <div class="flex items-center justify-between flex-col">
+            <div class='flex w-full flex-col'>
+              <div class="flex items-center justify-between w-full">
+                <p class="regular-16 text-gray-20">Destination</p>
+                <p class="bold-16 text-green-50">48 min</p>
+              </div>
+              <p class="bold-20 mt-2">Aguas Calientes</p>
+            </div>
+
+            <div class='flex w-full flex-col'>
+              <p class="regular-16 text-gray-20">Start track</p>
+              <h4 class="bold-20 mt-2 whitespace-nowrap">Wonorejo Pasuruan</h4>
+            </div>
+          </div>
         </div>
-
+      </div>
 
     </section></template>
 <script setup></script>
