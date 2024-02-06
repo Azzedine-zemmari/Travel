@@ -56,7 +56,7 @@
           text-color="black"
           px="24"
           py="14"
-          icon="../src/assets/play.svg"
+          icon="../assets/play.svg"
         />
       </div>
     </div>
