@@ -21,7 +21,7 @@
         textColor="white"
         px="24"
         py="14"
-        icon="../assets/user.svg"
+        icon="../src/assets/user.svg"
       />
     </div>
     <img
