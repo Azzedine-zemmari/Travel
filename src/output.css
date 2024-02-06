@@ -720,6 +720,10 @@ video {
   width: 100vw;
 }
 
+.w-1\/2{
+  width: 50%;
+}
+
 .min-w-\[1100px\]{
   min-width: 1100px;
 }
@@ -751,6 +755,10 @@ video {
 
 .grid-rows-4{
   grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.flex-row{
+  flex-direction: row;
 }
 
 .flex-col{
@@ -833,6 +841,10 @@ video {
   overflow: hidden;
 }
 
+.overflow-visible{
+  overflow: visible;
+}
+
 .overflow-x-auto{
   overflow-x: auto;
 }
@@ -855,6 +867,39 @@ video {
 
 .border{
   border-width: 1px;
+}
+
+.border-t-2{
+  border-top-width: 2px;
+}
+
+.border-t-8{
+  border-top-width: 8px;
+}
+
+.border-green-90{
+  --tw-border-opacity: 1;
+  border-color: rgb(41 44 39 / var(--tw-border-opacity));
+}
+
+.border-gray-90{
+  --tw-border-opacity: 1;
+  border-color: rgb(20 20 20 / var(--tw-border-opacity));
+}
+
+.border-gray-50{
+  --tw-border-opacity: 1;
+  border-color: rgb(88 88 88 / var(--tw-border-opacity));
+}
+
+.border-gray-20{
+  --tw-border-opacity: 1;
+  border-color: rgb(162 162 162 / var(--tw-border-opacity));
+}
+
+.border-gray-10{
+  --tw-border-opacity: 1;
+  border-color: rgb(238 238 238 / var(--tw-border-opacity));
 }
 
 .bg-green-50{
@@ -1509,10 +1554,6 @@ body {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.hover\:text-\[\]:hover{
-  color: ;
-}
-
 @media (min-width: 640px){
   .sm\:flex-row{
     flex-direction: row;
@@ -1559,6 +1600,10 @@ body {
 
   .md\:gap-5{
     gap: 1.25rem;
+  }
+
+  .md\:gap-24{
+    gap: 6rem;
   }
 
   .md\:text-\[18px\]{
@@ -1679,6 +1724,10 @@ body {
     gap: 1.75rem;
   }
 
+  .lg\:gap-36{
+    gap: 9rem;
+  }
+
   .lg\:space-x-12 > :not([hidden]) ~ :not([hidden]){
     --tw-space-x-reverse: 0;
     margin-right: calc(3rem * var(--tw-space-x-reverse));
@@ -1693,6 +1742,10 @@ body {
   .lg\:object-cover{
     -o-object-fit: cover;
        object-fit: cover;
+  }
+
+  .lg\:p-6{
+    padding: 1.5rem;
   }
 
   .lg\:px-20{
@@ -1726,14 +1779,6 @@ body {
     font-size: 88px;
   }
 
-  .lg\:text-\[4px\]{
-    font-size: 4px;
-  }
-
-  .lg\:text-\[22px\]{
-    font-size: 22px;
-  }
-
   .lg\:font-\[400\]{
     font-weight: 400;
   }
@@ -1744,10 +1789,6 @@ body {
 
   .lg\:leading-\[120\%\]{
     line-height: 120%;
-  }
-
-  .lg\:text-\[px\]{
-    color: px;
   }
 }
 
