@@ -33,7 +33,7 @@
           want to start an adventure
         </p>
         <img
-          src="../../public/quote.svg"
+          src="../assets/quote.svg"
           class="absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0"
           alt=""
         />

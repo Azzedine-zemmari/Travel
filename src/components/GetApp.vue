@@ -9,13 +9,13 @@
               bg-color="white"
               text-color="green"
               text="App Store"
-              icon="../../public/apple.svg"
+              icon="../assets/apple.svg"
               px="20"
               py="10"
               />
               <Button 
               text="Play Store"
-            icon="../../public/android.svg"
+            icon="../assets/android.svg"
               px="20"
               py="10"
             />
@@ -23,7 +23,7 @@
         </div>
 
         <div class="flex flex-1 items-center justify-end">
-          <img src="../../public/phone.png" alt="phones" width={550} height={870} />
+          <img src="../assets/phones.png" alt="phones" width={550} height={870} />
         </div>
       </div>
     </section>

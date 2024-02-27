@@ -3,7 +3,7 @@
     class="flex items-center justify-between mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 relative z-30 py-5"
   >
     <a href="/">
-      <img src="../../public/hilink-logo.svg" alt="travel ap logo" width="74" height="29" />
+      <img src="../assets/hilink-logo.svg" alt="travel ap logo" width="74" height="29" />
     </a>
     <ul class="hidden h-full gap-12 lg:flex">
       <li v-for="link in NAV_LINKS" :key="link.key">
@@ -21,12 +21,12 @@
         textColor="white"
         px="24"
         py="14"
-        icon="../../public/user.svg"
+        icon="../assets/user.svg"
       />
     </div>
     <img
       @click="handleMenu"
-      src="../../public/menu.svg"
+      src="../assets/menu.svg"
       alt="menu of travelling app"
       width="32"
       height="32"

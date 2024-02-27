@@ -9,38 +9,38 @@ export const NAV_LINKS = [
 
 // CAMP SECTION
 export const PEOPLE_URL = [
-  '../../public/person-1.png',
-  '../../public/person-2.png',
-  '../../public/person-3.png',
-  '../../public/person-4.png'
+  '../assets/person-1.png',
+  '../assets/person-2.png',
+  '../assets/person-3.png',
+  '../assets/person-4.png'
 ]
 
 // FEATURES SECTION
 export const FEATURES = [
   {
     title: 'Real maps can be offline',
-    icon: '../../public/map.svg',
+    icon: '../assets/map.svg',
     variant: 'green',
     description:
       'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location'
   },
   {
     title: 'Set an adventure schedule',
-    icon: '../../public/calendar.svg',
+    icon:'../assets/calendar.svg',
     variant: 'green',
     description:
       "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion"
   },
   {
     title: 'Technology using augment reality',
-    icon: '../../public/tech.svg',
+    icon: '../assets/tech.svg',
     variant: 'green',
     description:
       'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection'
   },
   {
     title: 'Many new locations every month',
-    icon: '../../public/location.svg',
+    icon: '../assets/location.svg',
     variant: 'orange',
     description:
       'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing'
@@ -70,10 +70,10 @@ export const FOOTER_CONTACT_INFO = {
 export const SOCIALS = {
   title: 'Social',
   links: [
-    '../../public/facebook.svg',
-    '../../public/instagram.svg',
-    '../../public/twitter.svg',
-    '../../public/youtube.svg',
-    '../../public/wordpress.svg'
+    '../assets/facebook.svg',
+    '../assets/instagram.svg',
+    '../assets/twitter.svg',
+    '../assets/youtube.svg',
+    '../assets/wordpress.svg'
   ]
 }

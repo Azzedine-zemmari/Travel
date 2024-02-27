@@ -1,7 +1,7 @@
 <template>
   <section class="flex items-center justify-center flex-col">
     <div class="px-6 lg:px-20 3xl:px-0 mx-auto max-w-[1440px] w-full pb-24">
-      <img src="../../public/camp.svg" width="50" height="50" alt="" />
+      <img src="../assets/camp.svg" width="50" height="50" alt="" />
       <p class="text-[18px] font-[400] uppercase -mt-1 mb-3 text-green-50">Where here for you</p>
       <div class="flex flex-wrap justify-between gap-5 lg:gap-10">
         <h2
@@ -19,7 +19,7 @@
     </div>
     <div class="flex items-center justify-center mx-auto max-w-[1440px] relative w-full">
       <img
-        src="../../public/boat.png"
+        src="../assets/boat.png"
         alt="boat"
         width="{1440}"
         height="{580}"
@@ -30,7 +30,7 @@
         class="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20"
       >
         <img
-          src="../../public/meter.svg"
+          src="../assets/meter.svg"
           alt="meter"
           width="{16}"
           height="{158}"
