@@ -8,7 +8,7 @@
     <!-- left -->
     <div class="relative z-20 flex flex-1 flex-col xl:w-1/2">
       <img
-        src="../assets/camp.svg"
+        src="../../public/camp.svg"
         alt="camp image"
         width="50"
         height="50"
@@ -28,7 +28,7 @@
           <img
             v-for="index in 5"
             :key="index"
-            src="../assets/star.svg"
+            src="../../public/star.svg"
             alt="Star"
             width="26"
             height="26"
@@ -56,7 +56,7 @@
           text-color="black"
           px="24"
           py="14"
-          icon="../assets/play.svg"
+          icon="../../public/play.svg"
         />
       </div>
     </div>
@@ -65,7 +65,7 @@
         <div class="flex flex-col">
           <div class="flex items-center justify-between">
             <p class="text-[16px] font-[400] text-gray-20">Location</p>
-            <img src="../assets/close.svg" alt="close" width="24" height="24" />
+            <img src="../../public/close.svg" alt="close" width="24" height="24" />
           </div>
           <p class="text-[20px] font-[700] text-white">Casablanca City</p>
         </div>
