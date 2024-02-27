@@ -9,16 +9,18 @@
               bg-color="white"
               text-color="green"
               text="App Store"
-              icon="../assets/apple.svg"
               px="20"
               py="10"
-              />
+              >
+              <img src="../assets/apple.svg" alt="">
+            </Button>
               <Button 
               text="Play Store"
-            icon="../assets/android.svg"
               px="20"
               py="10"
-            />
+            >
+            <img src="../assets/android.svg" alt="">
+          </Button>
           </div>
         </div>
 

@@ -21,8 +21,9 @@
         textColor="white"
         px="24"
         py="14"
-        icon="../assets/user.svg"
-      />
+      >
+      <img src="../assets/user.svg" alt="">
+    </Button>
     </div>
     <img
       @click="handleMenu"

@@ -56,8 +56,9 @@
           text-color="black"
           px="24"
           py="14"
-          icon="../assets/play.svg"
-        />
+        >
+      <img src="../assets/play.svg" alt="">
+      </Button>
       </div>
     </div>
     <div class="relative flex-1 items-start">

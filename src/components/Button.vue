@@ -11,7 +11,7 @@
     }"
     class="flex items-center gap-3 justify-center rounded-full"
   >
-    <img v-if="props.icon" :src="props.icon" alt="icon" class="w-5 h-5" />
+  <slot></slot> 
     <span>{{ props.text }}</span>
   </button>
 </template>
@@ -19,5 +19,5 @@
 <script setup>
 import { defineProps } from 'vue'
 
-const props = defineProps(['text', 'icon', 'bgColor', 'textColor', 'px', 'py', 'opacity'])
+const props = defineProps(['text', 'bgColor', 'textColor', 'px', 'py', 'opacity'])
 </script>
