@@ -1,7 +1,7 @@
 <template>
   <section class="max-w-[1440px] mx-auto p-4 lg:p-6 flex flex-wrap gap-12 md:gap-24 lg:gap-36">
     <div>
-      <img src="../src/assets/hilink-logo.svg" alt="travel ap logo" width="74" height="29" />
+      <img src="../assets/hilink-logo.svg" alt="travel ap logo" width="74" height="29" />
     </div>
     <div v-for="FL in FOOTER_LINKS" class="flex flex-col gap-3">
       <h2 class="font-[700] leading-[120%] text-[22px]">{{ FL.title }}</h2>
@@ -17,14 +17,14 @@
         </li>
       </ul>
     </div>
-    <div>
+    <!-- <div>
       <h2>{{ SOCIALS.title }}</h2>
       <ul class="flex flex-row gap-3">
         <li class='' v-for="SOC in SOCIALS.links">
           <img :src="SOC" alt="">
         </li>
       </ul>
-    </div>
+    </div> -->
     
   </section>
   <div class="flex flex-col justify-center items-center">

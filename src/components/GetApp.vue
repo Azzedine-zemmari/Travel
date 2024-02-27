@@ -1,5 +1,5 @@
 <template>
-<section class="mt-10 flex items-center justify-center w-full flex-col pb-[100px]">
+<section class="mt-44 flex items-center justify-center w-full flex-col pb-[100px]">
       <div class=" mx-auto max-w-[1440px] relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl">
         <div class="flex w-full flex-1 flex-col items-start justify-center gap-12">
           <h2 class="text-[40px] font-[700] leading-[120%] lg:text-[64px] xl:max-w-[320px]">Get for free now!</h2>
