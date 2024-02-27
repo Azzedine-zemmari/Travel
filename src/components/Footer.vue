@@ -1,7 +1,7 @@
 <template>
   <section class="max-w-[1440px] mx-auto p-4 lg:p-6 flex flex-wrap gap-12 md:gap-24 lg:gap-36">
     <div>
-      <img src="../assets/hilink-logo.svg" alt="travel ap logo" width="74" height="29" />
+      <img src="../src/assets/hilink-logo.svg" alt="travel ap logo" width="74" height="29" />
     </div>
     <div v-for="FL in FOOTER_LINKS" class="flex flex-col gap-3">
       <h2 class="font-[700] leading-[120%] text-[22px]">{{ FL.title }}</h2>
