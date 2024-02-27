@@ -6,7 +6,7 @@
     <div class="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
       <div class="flex items-center justify-center gap-4">
         <div class="rounded-full bg-green-50 p-4">
-          <img src="../assets/folded-map.svg" alt="map" width="28" height="28" />
+          <img src="../../public/folded-map.svg" alt="map" width="28" height="28" />
         </div>
         <div class="flex flex-col gap-1">
           <h4 class="text-[18px] font-[700] text-white">{{ props.title }}</h4>
